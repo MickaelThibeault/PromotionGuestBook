@@ -1,0 +1,64 @@
+@import "bootstrap/scss/bootstrap";
+
+$all-colors: map-merge-multiple($blues, $indigos, $purples, $pinks, $reds, $oranges, $yellows, $greens, $teals, $cyans);
+
+$utilities: map-merge(
+                $utilities,
+                (
+                        "color": map-merge(
+                                        map-get($utilities, "color"),
+                                        (
+                                                values: map-merge(
+                                                                map-get(map-get($utilities, "color"), "values"),
+                                                                        (
+                                                                                $all-colors
+                                                                        ),
+                                                ),
+                                        ),
+                        ),
+                )
+);
+
+$utilities: map-merge(
+                $utilities,
+                (
+                        "background-color": map-merge(
+                                        map-get($utilities, "background-color"),
+                                        (
+                                                values: map-merge(
+                                                                map-get(map-get($utilities, "background-color"), "values"),
+                                                                        (
+                                                                                $all-colors
+                                                                        ),
+                                                ),
+                                        ),
+                        ),
+                )
+);
+
+$utilities: map-merge(
+                $utilities,
+                (
+                        "height": map-merge(
+                                        map-get($utilities, "height"),
+                                        (
+                                                values: map-merge(
+                                                                map-get(map-get($utilities, "height"), "values"),
+                                                                (15: 15%),
+                                                ),
+                                        ),
+                        ),
+                )
+);
+
+@import "bootstrap/scss/utilities/api";
+
+.carre {
+  width: 40px;
+  height: 40px;
+}
+
+.imagePromo{
+  width: 110px;
+  height: 110px;
+}
