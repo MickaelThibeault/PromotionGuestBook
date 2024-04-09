@@ -44,6 +44,7 @@ function affichageCarte() {
         .then(data => {
             // console.log(data.apprenants[0].coordonnees.)
             data.apprenants.forEach(info => {
+
                 //ajouterMarqueur
                 if (info.coordonnees) {
                     marker = L.marker([parseFloat(info.coordonnees.latitude), parseFloat(info.coordonnees.longitude)]).addTo(map);
@@ -56,10 +57,17 @@ function affichageCarte() {
                         .openPopup();
                 }
             })
+
+            map.setView([46.50, 2.5], (window.innerWidth >= 992 ? 6 : 5));
+            window.addEventListener('resize', () => {
+                map.setView([46.50, 2.5], (window.innerWidth >= 992 ? 6 : 5));
+            })
+
         })
         .catch(error => {
             console.error("Une erreur s'est produite:", error);
         })
+
 }
 
 function traitementInfosGenerales() {

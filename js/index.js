@@ -126,7 +126,8 @@ function construireModal() {
             elementsFiche[0].innerText = infos.nom
             elementsFiche[1].innerText = infos.prenom
             elementsFiche[2].innerText = infos.ville
-            elementsFiche[3].innerText = infos.anecdotes
+            elementsFiche[3].innerText = infos.passions
+            elementsFiche[4].innerText = infos.anecdotes
         })
     }
 }

@@ -1,0 +1,11 @@
+@media (min-width: 991px) {
+    #map {
+        height: 650px;
+    }
+}
+
+@media (max-width: 991px) {
+    #map {
+        height: calc(650px - (991px - 100vw));
+    }
+}

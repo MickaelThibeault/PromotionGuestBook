@@ -1,4 +1,4 @@
-@import "bootstrap/scss/bootstrap";
+@import "../bootstrap/scss/bootstrap";
 
 $all-colors: map-merge-multiple($blues, $indigos, $purples, $pinks, $reds, $oranges, $yellows, $greens, $teals, $cyans);
 
@@ -51,7 +51,7 @@ $utilities: map-merge(
                 )
 );
 
-@import "bootstrap/scss/utilities/api";
+@import "../bootstrap/scss/utilities/api";
 
 .carre {
   width: 40px;
