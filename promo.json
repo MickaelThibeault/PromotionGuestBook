@@ -4,7 +4,7 @@
   "date_fin_formation" : "2025-01-10",
   "description_formation" : "<p>Préparation au Titre Professionnel : « TP - Concepteur Développeur d’Applications »</p><p>Reconnu par l’État de niveau 6 (ou niveau BAC+4)</p><p>Inscrit au RNCP (arrêté du 26/04/2023, J.O. du 13/05/2023)</p><p>Code RNCP : RNCP37873 – Code NSF : 326t – Formacode : 31067, 31036, 31010, 31084, 31006</p><p>Les objectifs pédagogiques sont (d'être capable de) :</p><ul><li>Prendre en charge les études fonctionnelles et techniques</li><li>Spécifier et concevoir techniquement une application informatique de type client/serveur, n-tiers ou mobile</li><li>Programmer une application informatique</li><li>Assurer la gestion de ses projets</li></ul>",
   "liens_utiles_formation" : "<ul><li><a href=\"https://getbootstrap.com/docs/5.3/getting-started/introduction/\" target=\"_blank\">Documentation Bootstrap</a></li><li><a href=\"https://developer.mozilla.org/fr/docs/Web/JavaScript\" target=\"_blank\">Documentation Mozilla développement</a></li><li><a href=\"https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/\" target=\"_blank\">Documentation Spring Boot</a></li><li><a href=\"https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html\" target=\"_blank\">ORM JPA</a></li><li><a href=\"https://symfony.com/doc/current/index.html\" target=\"_blank\">Documentation Symfony</a></li></ul>",
-  "nombre_apprenants" : "25",
+  "nombre_apprenants" : "23",
   "apprenants" : [
     {
       "id": 1,
@@ -12,7 +12,7 @@
       "prenom": "Corentin",
       "ville": "Valmont (57)",
       "passions": "Développer, la science, l'espace et les mangas/anime",
-      "anecdotes": "J'ai 24 ans (25 en mai)\nJe travaillais à la FNAC (pire boite ever) => burn out => soucis de santé => quitter la boite pour faire cette formation\nJ'ai beaucoup appris seul, voir => https://coredev.fr/ (mon portfolio)\nJ'aime les mangas (j'en ai +900 chez moi) et mes chats",
+      "anecdotes": "J'ai 24 ans (25 en mai)\nJe travaillais à la FNAC (pire boite ever) => burn out => soucis de santé => quitter la boite pour faire cette formation\nJ'ai beaucoup appris seul, voir => https://coredev.fr/ (mon portfolio)\nJ'aime les mangas (j'en ai +900 chez moi) et mes chats]",
       "avatar": "assets/avatars/CorentinRouff.jpg",
       "coordonnees": {
         "latitude" : "49.085833",
@@ -164,7 +164,7 @@
     },
     {
       "id": 13,
-      "nom": "FELIX",
+      "nom": "Felix",
       "prenom": "Lenny",
       "ville": "Manosque (04)",
       "passions": "Gaming, Livres, Musique, Mon chat",
@@ -225,6 +225,84 @@
       "coordonnees": {
         "latitude" : "49.4319",
         "longitude" : "2.0813"
+      }
+    },
+    {
+      "id": 18,
+      "nom": "Alleau",
+      "prenom": "Estelle",
+      "ville": "Poitiers (86)",
+      "passions": "Crochet / JV / Viber sur de la musique",
+      "anecdotes": "Licence en Traduction (Anglais/Allemand/Russe), Certification DELF/DALF. \n--\nSanté mentale délétère mais fun à son paroxysme.",
+      "avatar": "assets/avatars/EstelleAlleau.jpg",
+      "coordonnees": {
+        "latitude" : "46.580224",
+        "longitude" : "0.340375"
+      }
+    },
+    {
+      "id": 19,
+      "nom": "Carregalo",
+      "prenom": "Régis",
+      "ville": "Roanne (42)",
+      "passions": "Escalade",
+      "anecdotes": "J'ai travaillé pendant 20 ans dans l'industrie (imprimerie et mécanique).",
+      "avatar": "assets/avatars/RegisCARREGALO.png",
+      "coordonnees": {
+        "latitude" : "46.03694",
+        "longitude" : "4.06628"
+      }
+    },
+    {
+      "id": 20,
+      "nom": "Le Goux",
+      "prenom": "Arthur",
+      "ville": "Dinard (35)",
+      "passions": "Guitare, chant, volleyball et toute la filmographie de Denis Villeneuve",
+      "anecdotes": "allez hop je remets la description du Discord :\n\nJe suis breton et je viens d'avoir 30 ans (hier plus précisément !).\nJ'ai été ingénieur en sciences des matériaux pendants 2 ans puis développeur IBM i pendant 2 ans et demi, poste que j'ai quitté il y a quelques mois parce que développer des programmes tout droit sortis de Matrix (langage RPG pour ceux que ça intéresse 😅 )  c'est pas franchement foufou... Donc très content de m'être réorienté et de commencer cette aventure avec vous ! \n\nA part ça je fais pas mal de musique (chant, guitare, piano et un jour l'harmonica mais je préfère nouer une bonne relation avec mes voisins avant cette étape), du volley (malgré mon mètre 78) et un peu de surf.",
+      "avatar": "assets/avatars/ArthurLeGoux.PNG",
+      "coordonnees": {
+        "latitude" : "48.6327",
+        "longitude" : "-2.0609"
+      }
+    },
+    {
+      "id": 21,
+      "nom": "Tahri",
+      "prenom": "Amine",
+      "ville": "Montpellier (34)",
+      "passions": "Foot et Jeux vidéos",
+      "anecdotes": "Gentil et sportif",
+      "avatar": "assets/avatars/AmineJett.png",
+      "coordonnees": {
+        "latitude" : "43.610769",
+        "longitude" : "3.876716"
+      }
+    },
+    {
+      "id": 22,
+      "nom": "Navarro",
+      "prenom": "Sandrine",
+      "ville": "Saint-Gravé (56)",
+      "passions": "Montage vidéo, Permaculture",
+      "anecdotes": "Ma description serait trop longue, j'ai trop d'années au compteur ;)",
+      "avatar": "assets/avatars/ChroniquesTerriennes.jpg",
+      "coordonnees": {
+        "latitude" : "47.7266",
+        "longitude" : "-2.27944"
+      }
+    },
+    {
+      "id": 23,
+      "nom": "Belmezioud",
+      "prenom": "Mehdi",
+      "ville": "Rouen (76)",
+      "passions": "la musique",
+      "anecdotes": "étudiant d2wm",
+      "avatar": "assets/avatars/MehdiBelmezioud.jpg",
+      "coordonnees": {
+        "latitude" : "49.4431",
+        "longitude" : "1.0999"
       }
     }
   ]

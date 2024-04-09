@@ -33,9 +33,7 @@ function displayAffichage() {
         listing.style.display = "block"
         cards.style.display = "none"
     } else if (cartes.checked === true) {
-        console.log("hello")
         listing.style.display = "none"
-        console.log(listing.style.display)
         cards.style.display = "block"
     }
 }
@@ -114,6 +112,7 @@ function classColorString(color, clarte, offset = 0) {
 function construireModal() {
 
     const modal = document.getElementById('modal')
+
     if (modal) {
         modal.addEventListener('show.bs.modal', event => {
 
