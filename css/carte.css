@@ -1,11 +1,20 @@
 @media (min-width: 991px) {
     #map {
         height: 650px;
+        width: 650px;
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px) and (min-width: 700px) {
     #map {
         height: calc(650px - (991px - 100vw));
+        width: calc(650px - (991px - 100vw));
+    }
+}
+
+@media (max-width: 700px) {
+    #map {
+        height: 363px;
+        width: 363px;
     }
 }
