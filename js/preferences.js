@@ -27,8 +27,10 @@ function miseAJourSelectedOptions() {
     const liste = document.getElementById("liste")
     const cartes = document.getElementById("cartes")
 
-    clarte.value = localStorage.getItem("clarte")
-    color.value = localStorage.getItem("color")
+    if (localStorage.getItem("clarte"))
+        clarte.value = localStorage.getItem("clarte")
+    if (localStorage.getItem("color"))
+        color.value = localStorage.getItem("color")
 
     if (localStorage.getItem("liste") === "true")
         liste.checked = true
