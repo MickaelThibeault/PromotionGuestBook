@@ -121,7 +121,7 @@ function construireModal() {
             const button = event.relatedTarget
             const infos = JSON.parse(button.getAttribute('data-bs-infos'))
             const image = modal.querySelector('img')
-            const elementsFiche = modal.querySelectorAll(".modal-body span")
+            const elementsFiche = modal.querySelectorAll(".modal-content span")
 
             image.setAttribute("src", infos.avatar)
             elementsFiche[0].innerText = infos.nom
