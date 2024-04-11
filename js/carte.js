@@ -58,9 +58,9 @@ function affichageCarte() {
                 }
             })
 
-            map.setView([46.50, 2.5], (window.innerWidth >= 992 ? 6 : 5));
+            map.setView([46.50, 2.5], (window.innerWidth >= 992 ? 6 : window.innerWidth >= 385 ? 5 : 4));
             window.addEventListener('resize', () => {
-                map.setView([46.50, 2.5], (window.innerWidth >= 992 ? 6 : 5));
+                map.setView([46.50, 2.5], (window.innerWidth >= 992 ? 6 : window.innerWidth >= 385 ? 5 : 4));
             })
 
         })
