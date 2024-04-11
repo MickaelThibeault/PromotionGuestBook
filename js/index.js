@@ -101,6 +101,8 @@ function affichageCouleurDeFonds() {
     head.classList.add(classColorString(localStorage.getItem("color"), localStorage.getItem("clarte"), 100))
 }
 
+// construction du nom de la class bootstrap pour un "bg-color-clarte" (ex : bg-cyan-200)
+
 function classColorString(color, clarte, offset = 0) {
 
     const valeurLight = 200
