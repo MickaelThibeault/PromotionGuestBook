@@ -229,15 +229,15 @@
     },
     {
       "id": 18,
-      "nom": "Alleau",
-      "prenom": "Estelle",
-      "ville": "Poitiers (86)",
-      "passions": "Crochet / JV / Viber sur de la musique",
-      "anecdotes": "Licence en Traduction (Anglais/Allemand/Russe), Certification DELF/DALF. \n--\nSanté mentale délétère mais fun à son paroxysme.",
-      "avatar": "assets/avatars/EstelleAlleau.jpg",
+      "nom": "Belmezioud",
+      "prenom": "Mehdi",
+      "ville": "Rouen (76)",
+      "passions": "la musique",
+      "anecdotes": "étudiant d2wm",
+      "avatar": "assets/avatars/MehdiBelmezioud.jpg",
       "coordonnees": {
-        "latitude" : "46.580224",
-        "longitude" : "0.340375"
+        "latitude" : "49.4431",
+        "longitude" : "1.0999"
       }
     },
     {
@@ -294,15 +294,15 @@
     },
     {
       "id": 23,
-      "nom": "Belmezioud",
-      "prenom": "Mehdi",
-      "ville": "Rouen (76)",
-      "passions": "la musique",
-      "anecdotes": "étudiant d2wm",
-      "avatar": "assets/avatars/MehdiBelmezioud.jpg",
+      "nom": "Alleau",
+      "prenom": "Estelle",
+      "ville": "Poitiers (86)",
+      "passions": "Crochet / JV / Viber sur de la musique",
+      "anecdotes": "Licence en Traduction (Anglais/Allemand/Russe), Certification DELF/DALF. \n--\nSanté mentale délétère mais fun à son paroxysme.",
+      "avatar": "assets/avatars/EstelleAlleau.jpg",
       "coordonnees": {
-        "latitude" : "49.4431",
-        "longitude" : "1.0999"
+        "latitude" : "46.580224",
+        "longitude" : "0.340375"
       }
     }
   ]
