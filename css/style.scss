@@ -2,6 +2,16 @@
 
 $all-colors: map-merge-multiple($blues, $indigos, $purples, $pinks, $reds, $oranges, $yellows, $greens, $teals, $cyans);
 
+$grid-breakpoints: (
+        xs: 0,
+        xsm : 400px, // Nouveau breakpoint personnalisé
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1400px,
+);
+
 $utilities: map-merge(
                 $utilities,
                 (
