@@ -42,6 +42,10 @@ function miseAJourSelectedOptions() {
         clarte.disabled = true
     }
 
+    if (color.value === "black") {
+        clarte.disabled = true
+    }
+
     color.addEventListener("change", () => {
         if (color.value === "white") {
             clarte.value = "light"
