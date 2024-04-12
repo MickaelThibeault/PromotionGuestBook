@@ -36,6 +36,23 @@ function miseAJourSelectedOptions() {
         liste.checked = true
     if (localStorage.getItem("cartes") === "true")
         cartes.checked = true
+
+    if (color.value === "white") {
+        clarte.value = "light"
+        clarte.disabled = true
+    }
+
+    color.addEventListener("change", () => {
+        if (color.value === "white") {
+            clarte.value = "light"
+            clarte.disabled = true
+        } else if (color.value === "black") {
+            clarte.value = "dark"
+            clarte.disabled = true
+        } else
+            clarte.disabled = false
+    })
+
 }
 
 function modificationApercuCouleur() {
